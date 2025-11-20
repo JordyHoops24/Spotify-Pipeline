@@ -65,3 +65,22 @@ SOURCE queries.sql;
 
 - Raw Spotify JSON files are not included in this repository for privacy.
 - This project was created for a Big Data assignment but is fully reusable for future portfolio use.
+
+
+
+**Any teammate can download this repo and analyze their own listening history:**
+
+Download your Spotify Extended Streaming History (JSON files)
+
+Place them in a folder
+
+Run the converter:
+
+python3 convert_spotify.py
+
+
+Upload the generated CSV to HDFS
+
+Run the Hive queries from queries.sql
+
+Your dashboard will reflect your own listening history.
